@@ -1,0 +1,46 @@
+.serviciototal {
+    margin: 30px 100px;
+    display: flex;
+    /* gap: 200px; */
+    justify-content: space-around;
+
+}
+
+.servicio {
+    margin: 0;
+    padding: 20px;
+}
+
+.abecedario {
+    font-size: 30px;
+    text-decoration: underline;
+    background-color: darkcyan;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.servicio ul li {
+    padding: 10px 0px;
+}
+
+.servicio ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.servicio ul li a:hover {
+    background-color: darkcyan;
+    text-decoration: underline white;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.derivaciones ul li {
+    margin: 0px 280px;
+    padding: 10px;
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+header {
+    display: flex;
+    background-color: darkcyan;
+    padding-left: 200px;
+    justify-content: left;
+    gap: 50px;
+    height: 120px;
+    font-family: 'Raleway', sans-serif;
+
+}
+.cabecera {
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+    height: 120px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.cabeza {
+    display: flex;
+    flex-direction: row;
+    gap: 600px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.sala {
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.atencion {
+    text-align: right;
+    justify-content: right;
+}
+
+.imagenlogo {
+    width: 100px;
+    border-radius: 10px;
+    margin: 10px 0px;
+} 

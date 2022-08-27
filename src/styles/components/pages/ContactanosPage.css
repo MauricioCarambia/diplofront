@@ -1,0 +1,46 @@
+.campos {
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 100px;
+}
+
+.formulario {
+    background-color:aquamarine;
+    width: 40%;
+    margin: 0px auto;
+    border-radius: 10px;
+    border: 1px solid darkcyan;
+}
+
+.campo {
+    padding: 5px 0px;
+}
+
+.campos input {
+    padding: 10px;
+border: 1px solid darkcyan;
+border-radius: 5px;
+
+}
+
+.campos button {
+    padding: 10px 0px;
+    margin: 2px 0px;
+    background-color: white;
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.campos textarea {
+    resize: none;
+    overflow: scroll;
+    border: 1px solid darkcyan;
+        border-radius: 5px;
+}
+
+.campos label {
+    text-decoration: underline;
+}
