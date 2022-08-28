@@ -29,7 +29,7 @@ const ContactanosPage = (props) => {
         setMsg('');
         setSending(true)
         const response = await
-            axios.post('http://localhost:3000/api/contactanos', formData);
+            axios.post(`${process.env.REACT_APP_API_URL}/api/contactanos`), formData);
         setSending(false);
         setMsg(response.data.message);
         if (response.data.error === false) {
